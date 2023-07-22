@@ -1,8 +1,6 @@
 from dotenv import load_dotenv
 from fastapi import FastAPI
 import requests
-from fastapi.encoders import jsonable_encoder
-from fastapi.responses import JSONResponse
 from fastapi import Response
 import os
 
